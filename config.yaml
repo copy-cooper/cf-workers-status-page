@@ -37,3 +37,12 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: server.rip
+    name: Server.RIP
+    description: 'Portal for making requests on Plex.'
+    url: 'https://server.rip'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
