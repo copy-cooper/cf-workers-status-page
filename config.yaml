@@ -44,7 +44,7 @@ monitors:
 
   - id: odoo
     name: Odoo
-    description: 'ERP software for personal business'
+    description: 'ERP software for personal business.'
     url: 'https://invoice.copycomma.com'
     method: GET
     expectStatus: 200
